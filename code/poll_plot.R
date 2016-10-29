@@ -189,7 +189,11 @@ ggplot(
   coord_cartesian(
     xlim = c(as.Date("2016-08-30"), 
              as.Date("2016-11-08")))+
-  theme_bw()
+  theme_bw()+
+  labs(
+    y = "",
+    x = "date"
+  )
 
 
 
